@@ -1,0 +1,15 @@
+Tampen Brenner
+
+Denne vanskelige oppgaven løser du med: Math.random() og Math.floor(), CSS, if-setninger, variabler og 
+onmousemove https://www.w3schools.com/jsref/event_onmousemove.asp
+
+Spillet går ut på at man skal "lete" med musepekeren i nettleservinduet etter et hemmelig og tilfeldig plassert punkt og finne dette.
+
+Et fastsatt område skal gradvis bli mer og mer rødt jo mer musepekeren nærmer seg det hemmelige punktet - og mindre og mindre rødt jo 
+lenger vekk man er slik at spilleren kan sikte seg inn mot det hemmelige punktet.
+
+Når man finner punktet skal punktet endre farge fra usynlig til f.eks oransje (eller en liten flamme?) og spilleren får en gratulasjon 
+for å ha klart dette litt vanskelige spillet.
+
+
+løsningsforslag: https://github.com/GetAcademy/Modul1_oppgaver_og_loesningsforslag/blob/main/TampenBrenner/loesningsforslag.html

@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(61, 9, 97);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 1000px;
+    height: 700px;
+    background-color: black;
+    color: white;
+    border: 5px solid gray;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 5px;
+    place-items: center;
+}
+
+.container h1, 
+.container p, 
+.container button {
+    grid-column: span 2;
+}
+
+#torch {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 68, 0, 0.94);
+    border: 5px solid indigo;
+}
+
+#gameField {
+    width: 700px;
+    height: 700px;
+    background-color: antiquewhite;
+    border: 5px solid indigo;
+    position: relative;
+}
+
+#secretPoint {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+#secretPoint:hover {
+    cursor: pointer;
+}
